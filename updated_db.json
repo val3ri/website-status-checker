@@ -1,0 +1,1 @@
+[{"name": "google", "url": "https://www.google.com/", "description": "the best website ever", "status": {"statusCode": 200, "lastChecked": "09/12/2019 15:54:15"}}, {"name": "novsport", "url": "http://www.novsport.com/index.php", "description": "sport news", "status": {"statusCode": 200, "lastChecked": "09/12/2019 15:54:16"}}]

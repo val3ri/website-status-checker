@@ -1,0 +1,22 @@
+[
+	{
+		"name": "ePR",
+		"url": "https://ittudo01.autista.tu:18111/epr-admin/",
+		"db": "oracle",
+		"description": "szenario 1",
+		"status": {
+			"statusCode": "not checked",
+			"lastChecked": "null"
+		}
+	},
+	{
+		"name": "ePR",
+		"url": "https://ittudo01.autista.tu:18111/epr-admi/",
+		"db": "oracle",
+		"description": "szenario 2",
+		"status": {
+			"statusCode": "not checked",
+			"lastChecked": "null"
+		}
+	}
+]
