@@ -9,13 +9,13 @@ def check_status(json_file):
 
 
 def check_container_status(json_object):
-    response = requests.get(json_object['url'], verify=False)
-    if response:
-        # print('Success!')
+    try:
+        # successful request
+        response = requests.get(json_object['url'], verify=False)
         update_status_fields(json_object, response.status_code)
-    else:
-        # print('An error has occurred.')
-        update_status_fields(json_object, response.status_code)
+    except requests.exceptions.ConnectionError as error:
+        # failed request
+        update_status_fields(json_object, "999")
 
 
 def update_status_fields(object, status_code):
